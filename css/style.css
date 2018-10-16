@@ -1,0 +1,373 @@
+#cssmenu ul,
+#cssmenu li,
+#cssmenu span,
+#cssmenu a {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+body
+{
+    margin: 0;
+}
+.header
+{
+    width: auto;
+    height: 200px;
+    background-image: url("../images/header.png");
+    border-bottom: 2px  solid #edbf72;
+}
+.footer
+{
+    height: 300px;
+    width: 100%;
+    background-color: #A22E14;
+    border-top: 2px  solid #edbf72;
+}
+
+.footer .footrow
+{
+    height: 250px;
+    width: 90%;
+   padding: 20px 20px;
+   
+}
+.footrow .col
+{
+    width: 20%;
+    display: block;
+    margin: 0 2%;
+    float: left;
+    height: 100%;
+}
+.slidermain
+{
+    width: 100%;
+    height: 350px;
+    background-color: #BD0B02;
+    border-bottom: 2px solid #edbf72;
+}
+.slider-col1 
+{
+    width: 10%;
+    height:350px;
+    background-image: url("../images/slider-left.png");
+    background-size: cover;
+    display: block;
+    float: left;
+}
+.slider-col2
+{
+    width: 90%;
+    height: 350px;
+    float: left;
+    position: relative;
+    
+}
+#wrapper { max-width: 1000px; margin: 0 auto; text-align: center; } 
+			#gallery { overflow: hidden; }
+			#gallery a { display: block; float: left; padding: 10px 10px; }
+			#gallery a img { display: block; border: 0; height: 200px; width: 300px;}
+
+.slider-container
+{
+
+    height: 90%;
+    position: absolute;
+    width: 90%;
+    margin-top: 15px;
+    margin-left: 3%;
+    overflow: hidden;
+    
+}
+.pattinathar
+{
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    background-image: url("../images/pattinathar-sliderbg.png");
+    background-size: cover;
+    right: 0;
+}
+table tr td
+{
+    border:0.5px solid #BD0B02
+}
+table tr td
+{
+    min-width: 200px;
+    height: 50px;
+    padding-left: 20px;
+}
+.kovil-bg
+{
+    background-image: url("../images/kovil-bg.png");
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    bottom: 0;
+    z-index: -1;
+}
+.container
+{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #BD0B02;
+}
+.container ul li
+{
+    padding-top: 10px;
+    text-align: justify;
+}
+.home-col
+{
+    
+    width: 30%;
+    height: 440px;
+    border: 2px solid #BD0B02;
+    float: left;
+    margin: 0 10px;
+    display: block;
+    overflow: hidden;
+    
+}
+.col h3
+{
+    color: #edbf72;
+}
+.col p
+{
+    color: #edbf72;
+    font-size: 13px;
+    
+}
+#sitedesc
+{
+    font-size: 12px;
+    text-align: justify;
+}
+.main
+{
+    color: #BD0B02;
+    position: relative;
+    height: 1000px;
+}
+.col ul li
+{
+    color: #edbf72;
+}
+.col ul li a
+{
+    color: #edbf72;
+    text-decoration:none;
+}
+.footer .copyright
+{
+    width: 100%;
+    height: 30px;
+    background-color: #edbf72;
+    text-align: center;
+    padding-top: 15px;
+}
+.head-title
+{
+    width: 100%;
+    height: 30px;
+    background-color: #BD0B02;
+     color: #edbf72;
+    text-align: center;
+    padding-top: 10px;
+}
+.head-content
+{
+    padding: 20px 20px;
+}
+.head-content p
+{
+    text-align: justify;
+    font-size: 13px;
+}
+.title
+{
+    padding-top: 20px;
+    width: 100%;
+     margin: 0 auto;
+}
+#main-banner
+{
+    margin: 0 auto;
+    width: 80%;
+}
+#cssmenu {
+  line-height: 1;
+  border-radius: 0px 0px 0 0;
+  -moz-border-radius: 0px 0px 0 0;
+  -webkit-border-radius: 0px 0px 0 0;
+  background:#A22E14;
+  background: -moz-linear-gradient(top, #BD0B02 0%,#A22E14 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #BD0B02), color-stop(100%, #A22E14));
+  background: -webkit-linear-gradient(top, #BD0B02 0%,#A22E14 100%);
+  background: -o-linear-gradient(top, #BD0B02 0%,#A22E14 100%);
+  background: -ms-linear-gradient(top, #BD0B02 0%,#A22E14 100%);
+  background: linear-gradient(to bottom, #BD0B02 0%,#A22E14 100%);
+  border-bottom: 2px solid #edbf72;
+  width: auto;
+}
+#cssmenu:after,
+#cssmenu ul:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+#cssmenu a {
+  background:#A22E14;
+  background: -moz-linear-gradient(top, #BD0B02 0%,#A22E14 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #BD0B02), color-stop(100%,#A22E14));
+  background: -webkit-linear-gradient(top, #BD0B02 0%,#A22E14 100%);
+  background: -o-linear-gradient(top, #BD0B02 0%,#A22E14 100%);
+  background: -ms-linear-gradient(top, #BD0B02 0%,#A22E14 100%);
+  background: linear-gradient(to bottom, #BD0B02 0%,#A22E14 100%);
+  color: #ffffff;
+  display: block;
+  font-family: Helvetica, Arial, Verdana, sans-serif;
+  padding: 19px 20px;
+  text-decoration: none;
+}
+#cssmenu ul {
+  list-style: none;
+}
+#cssmenu > ul > li {
+  display: inline-block;
+  float: left;
+  margin: 0;
+}
+#cssmenu.align-center {
+  text-align: center;
+}
+#cssmenu.align-center > ul > li {
+  float: none;
+}
+#cssmenu.align-center ul ul {
+  text-align: left;
+}
+#cssmenu.align-right > ul {
+  float: right;
+}
+#cssmenu.align-right ul ul {
+  text-align: right;
+}
+#cssmenu > ul > li > a {
+  color: #ffffff;
+  font-size: 12px;
+}
+#cssmenu > ul > li:hover:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #edbf72;
+  margin-left: -10px;
+}
+#cssmenu > ul > li:first-child > a {
+  border-radius: 5px 0 0 0;
+  -moz-border-radius: 5px 0 0 0;
+  -webkit-border-radius: 5px 0 0 0;
+}
+#cssmenu.align-right > ul > li:first-child > a,
+#cssmenu.align-center > ul > li:first-child > a {
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+}
+#cssmenu.align-right > ul > li:last-child > a {
+  border-radius: 0 5px 0 0;
+  -moz-border-radius: 0 5px 0 0;
+  -webkit-border-radius: 0 5px 0 0;
+}
+#cssmenu > ul > li.active > a,
+#cssmenu > ul > li:hover > a {
+  color: #ffffff;
+  box-shadow: inset 0 0 3px #000000;
+  -moz-box-shadow: inset 0 0 3px #000000;
+  -webkit-box-shadow: inset 0 0 3px #000000;
+  background: #070707;
+  background: -moz-linear-gradient(top, #262626 0%, #070707 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #262626), color-stop(100%, #070707));
+  background: -webkit-linear-gradient(top, #262626 0%, #070707 100%);
+  background: -o-linear-gradient(top, #262626 0%, #070707 100%);
+  background: -ms-linear-gradient(top, #262626 0%, #070707 100%);
+  background: linear-gradient(to bottom, #262626 0%, #070707 100%);
+}
+#cssmenu .has-sub {
+  z-index: 1;
+}
+#cssmenu .has-sub:hover > ul {
+  display: block;
+}
+#cssmenu .has-sub ul {
+  display: none;
+  position: absolute;
+  width: 200px;
+  top: 100%;
+  left: 0;
+}
+#cssmenu.align-right .has-sub ul {
+  left: auto;
+  right: 0;
+}
+#cssmenu .has-sub ul li {
+  *margin-bottom: -1px;
+}
+#cssmenu .has-sub ul li a {
+  background: #edbf72;
+  border-bottom: 1px dotted #31b7f1;
+  font-size: 11px;
+  filter: none;
+  display: block;
+  line-height: 120%;
+  padding: 10px;
+  color: #ffffff;
+}
+#cssmenu .has-sub ul li:hover a {
+  background: #0c7fb0;
+}
+#cssmenu ul ul li:hover > a {
+  color: #ffffff;
+}
+#cssmenu .has-sub .has-sub:hover > ul {
+  display: block;
+}
+#cssmenu .has-sub .has-sub ul {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: 0;
+}
+#cssmenu.align-right .has-sub .has-sub ul,
+#cssmenu.align-right ul ul ul {
+  left: auto;
+  right: 100%;
+}
+#cssmenu .has-sub .has-sub ul li a {
+  background: #0c7fb0;
+  border-bottom: 1px dotted #31b7f1;
+}
+#cssmenu .has-sub .has-sub ul li a:hover {
+  background: #0a6d98;
+}
+#cssmenu ul ul li.last > a,
+#cssmenu ul ul li:last-child > a,
+#cssmenu ul ul ul li.last > a,
+#cssmenu ul ul ul li:last-child > a,
+#cssmenu .has-sub ul li:last-child > a,
+#cssmenu .has-sub ul li.last > a {
+  border-bottom: 0;
+}
